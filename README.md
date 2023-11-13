@@ -1,6 +1,9 @@
 # DSGA-1007
 
-Doodles below
+Status (11/13 @ 18:30): Basic restaurant info scrape completed (see restaurant.json), still working to scrape review data. Because it's a heavy load we should work in parallel to scrape the rest of the restaurant reviews. To avoid scraping duplicates, let's scrape for restaurants given a designated letter. I'll scrape reviews from restaurant names starting from A-G for e.g.
+
+
+Doodles/scraps below
 -----------
 """ 
 2023 NYC Michelin STAR restaurants — confirm Manhattan proper status & subset Yelp data accordingly.  
