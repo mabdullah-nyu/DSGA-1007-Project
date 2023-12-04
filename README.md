@@ -8,13 +8,13 @@ What features best distinguish a Michelin?
 **Methodology**
 
 - Data sets: Restaurant Yelp data ($$$, hours of operation, cuisine etc.), Reviews data: top 50 reviews for each restaurant, primary key: restaurant alias 
-- Considerations: We only pull data for MANHATTAN specifically,  aggregating across ~14K restaurants. Due to mass, we also only pull 50 reviews per restaurant, instead of all the reviews. 
+- Considerations: We only pull data for MANHATTAN specifically,  aggregating across 10K+ restaurants. Due to mass, we also only pull 50 reviews per restaurant, instead of all the reviews. 
 
 For this project, we follow the below phasing/framework: 
 
 
 1. Obtain: Scrape the API for restaurant + review datasets. 
-2. Scrub: Preprocess our data & feature engineering — changing to appropriate datatypes, removing unnecesary data/columns, and reformatting data.
+2. Scrub: Preprocess our data & feature engineering — changing to appropriate datatypes, removing unnecessary data/columns, and reformatting data.
 3. EDA:  Deep dive through visualizations to better understand our data. 
 4. Model: Build a classification model, __________, & TD-IDF analysis for further meaning. 
 5. Interpret: Our story! 
