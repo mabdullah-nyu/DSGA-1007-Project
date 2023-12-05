@@ -7,10 +7,9 @@ More here: https://docs.google.com/presentation/d/1afD-9xyWKtQFVYMLrtO4hDgY-wIxS
 
 **Methodology**
 
-- Data sets: Restaurant Yelp data ($$$, hours of operation, cuisine etc.), Reviews data: top 50 reviews for each restaurant, primary key: restaurant alias 
-- Considerations: Scale and API rate limiting is a big factor in our project design. We set the following constraints, only pulling data for Manhattan proper places (not incl. Queens for example e.g.). Since Manhattan proper still queries 10K+ restaurants, we limit reviews to 50 reviews per restaurant (vs all reviews across 10K places). Because of this, many of the fetched reviews are recent, so we also subset Michelins vs non-Michelins across Michelin 2023* restaurants in Manhattan.
+We use 2 original data sets—restaurant Yelp data ($$$, hours of operation, cuisine etc.) and each restaurant reviews data (top 50 reviews for each restaurant). Some considerations: Scale and API rate limiting was a big factor in our project design. We set the following constraints, only pulling data for Manhattan proper places (not incl. Queens for example e.g.). Since Manhattan proper still queries 10K+ restaurants, we also limited reviews to <= 50 review (vs pulling all of them). Accordingly, many of the fetched reviews are recent, so we also subset Michelins vs non-Michelins across Michelin 2023* restaurants in Manhattan.
 
-For this project, we follow the below phasing/framework: 
+For this project, we implemented the below phasing/framework: 
 
 1. Obtain: Scrape the API for restaurant + review datasets. 
 2. Scrub: Preprocess our data & feature engineering — changing to appropriate datatypes, removing unnecessary data/columns, and reformatting data.
