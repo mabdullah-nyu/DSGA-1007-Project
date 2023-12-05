@@ -31,6 +31,7 @@ For this project, we follow the below phasing/framework:
 - reviews: Results of scrape.ipynb. Folder containing alphabetized review data; must do methodology as one review file would be >100MB.
 	-restaurant_reviews: all reviews in reviews folder aggregated into a CSV via data_processing.ipynb. This file is too big to upload to Github so PLEASE download it by running data_processing.ipynb.
 
-*Analysis*:  - EDA_numerical.ipynb
+*Analysis*:  
+- EDA_numerical.ipynb
 - classification.ipynb
 - tfidf_model.ipynb 	     
