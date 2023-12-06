@@ -37,4 +37,5 @@ For this project, we implemented the below phasing/framework:
 *Analysis*:  
 - EDA_numerical.ipynb
 - classification.ipynb
+- NLP_analysis.ipynb: Script to apply the VADER framework to review text, returning sentiment scores/classes for review data. Word and bi-gram frequencies are compared across Michelin/non-Michelin restaurants, both in general and on positive/negative review sentiment subsets. Significance test infer effects of word and bi-gram frequencies between Michelin/non-Michelin restaurants, both in general and in positive sentiment cases. Word clouds, bar charts, boxplots, and histograms are used to test, evaluate, and justify our results.
 - tfidf_model.ipynb 	     
