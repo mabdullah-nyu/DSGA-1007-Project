@@ -9,7 +9,7 @@ More here: https://docs.google.com/presentation/d/1afD-9xyWKtQFVYMLrtO4hDgY-wIxS
 
 **Methodology**
 
-We use 2 original data sets— Yelp restaurant data ($$$, hours of operation, cuisine etc.) and restaurant reviews data (top 50 recent reviews for each restaurant). 
+We use 2 original data sets—Yelp restaurant data ($$$, hours of operation, cuisine etc.) and restaurant reviews data (top 50 recent reviews for each restaurant). 
 
 Some considerations: Scale and API rate limiting was a big factor in our project design. We set the following constraints, only pulling data for Manhattan proper. This still queries 10K+ restaurants, so we additionally limited reviews to <= 50 reviews (vs pulling all). Accordingly, many of the fetched reviews are recent, so we also subset Michelins vs non-Michelins across Michelin 2023* restaurants specifically. 
 
