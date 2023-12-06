@@ -1,9 +1,9 @@
 **Motivation:**
 NYC is one of the primary food bastions of the world, yet not impermeable to online critique. In this way, food rating aggregators like Yelp manage to guide diners in a fairly unbiased manner, capturing mass sentiment for various restaurants. 
 
-Our group was interested in the potential delta in Michelin vs non-Michelin across various Yelp attributes especially given Michellin's furtive rating process. 
+Our group was interested in the potential delta in Michelin vs non-Michelin restaurants across various Yelp attributes; Michelin has a highly furtive rating process and the criteria to succeed isn't always clear.  
 
-What features is a Michelin likely to over-index across? What words are most mentioned in a Michelin review vs not? Which non-Michelins are most similar to a Michelin (based on reviews)? 
+Essentially, what features is a Michelin likely to over-index across? What words are most mentioned in a Michelin review v.s. not? From this, can we identify some non-Michelins that are most similar to Michelins (based on reviews)? 
 
 More here: https://docs.google.com/presentation/d/1afD-9xyWKtQFVYMLrtO4hDgY-wIxS76vucMuQQThPaE/edit?usp=sharing
 
